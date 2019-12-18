@@ -11,7 +11,7 @@ export const UpdateMovie = props => {
         stars: '',
     })
    
-    console.log('newMovie state at initial load is: ', newMovie)
+    console.log('proops is', props)
 
     const handleInput = (e) => {
         console.log('name here is: ', e.target.name)
